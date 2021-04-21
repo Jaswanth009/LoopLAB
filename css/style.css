@@ -1,0 +1,65 @@
+body{
+    background-color: #333;
+    color: white;
+}
+.navbar{
+    border-bottom: 3px solid #008ed6;
+    opacity: 0.8
+}
+#home-section{
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    min-height: 700px;
+}
+#home-section .dark-overlay{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+}
+
+#home-section .home-inner{
+    padding-top: 175px;
+
+}
+
+#home-section .fas{
+    background-color:white;
+    color: #008ed6;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#home-section .card-form{
+   /* opacity: 0.8; */
+}
+
+#Explore-section .fas{
+    background-color:#333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#create-head-section,#Share-head-section{
+    background-color: #008ed6;
+
+}
+#Create-section .fas{
+    background-color:#333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#Share-section .fas{
+    background-color:white;
+    color: #008ed6;
+    border-radius: 5px;
+    padding: 5px;
+
+}
